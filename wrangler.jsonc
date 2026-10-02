@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "scanlink",
+  "compatibility_date": "2026-10-02",
+  // Static assets only: no Worker script, Cloudflare serves dist/ directly.
+  "assets": {
+    "directory": "./dist"
+  },
+  "routes": [{ "pattern": "scanlink.graditya.com", "custom_domain": true }]
+}

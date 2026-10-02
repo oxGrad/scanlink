@@ -7,4 +7,5 @@ bun install
 bun dev        # also exposed on your LAN (vite --host)
 bun test       # url normalization + history helpers
 bun run build  # static output in dist/
+bun run deploy # build + deploy to Cloudflare (scanlink.graditya.com)
 ```
